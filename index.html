@@ -1,285 +1,1809 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Developer Hub</title>
+<meta charset="UTF-8">
 
-    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+<title>
+DevFabric — The Distributed Developer Infrastructure Layer
+</title>
+
+
+<meta 
+name="description"
+content="
+DevFabric is a developer infrastructure platform combining distributed compute,
+data services, networking, identity, and programmable resources into one unified fabric.
+">
+
+
+<meta property="og:title"
+content="DevFabric — Distributed Developer Infrastructure">
+
+
+<meta property="og:description"
+content="
+Build, deploy, and scale applications using global compute resources,
+distributed networking, realtime infrastructure, and developer-first tooling.
+">
+
+
+<link rel="stylesheet" href="style.css">
+
+
 </head>
+
+
+
 
 <body>
 
-    <!-- Background Effects -->
-    <div class="ambient ambient-1"></div>
-    <div class="ambient ambient-2"></div>
 
-    <!-- Navigation -->
-    <header class="navbar">
 
-        <div class="logo">
-            <span class="logo-mark">S</span>
-            <span class="logo-text">SIMPLIFY</span>
-        </div>
+<!-- =====================================================
+HEADER
+===================================================== -->
 
-        <nav class="nav-links">
-            <a href="#docs">Docs</a>
-            <a href="#api">API</a>
-            <a href="#sdk">SDKs</a>
-            <a href="#github">GitHub</a>
-        </nav>
 
-        <a href="#" class="nav-button">
-            Get Started
-        </a>
+<header class="site-header">
 
-    </header>
 
+<div class="container header-container">
 
-    <!-- Hero -->
-    <main>
 
-        <section class="hero">
+<a href="index.html" class="brand">
 
-            <div class="hero-content">
 
-                <div class="eyebrow">
-                    <span class="status-dot"></span>
-                    DEVELOPER PLATFORM
-                </div>
+<div class="brand-icon">
 
-                <h1>
-                    Build the
-                    <span>next layer.</span>
-                </h1>
+D
 
-                <p class="hero-description">
-                    Everything you need to build, connect, and deploy
-                    modern applications through one powerful developer
-                    platform.
-                </p>
+</div>
 
-                <div class="hero-actions">
 
-                    <a href="#docs" class="button button-primary">
-                        Explore Documentation
-                        <span>→</span>
-                    </a>
 
-                    <a href="#github" class="button button-secondary">
-                        View on GitHub
-                    </a>
+<div class="brand-text">
 
-                </div>
 
-            </div>
+<h1>
+DevFabric
+</h1>
 
 
-            <!-- Terminal -->
-            <div class="terminal">
+<span>
+Distributed Developer Infrastructure
+</span>
 
-                <div class="terminal-header">
 
-                    <div class="terminal-dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+</div>
 
-                    <span class="terminal-title">
-                        simplify-cli
-                    </span>
 
-                </div>
+</a>
 
-                <div class="terminal-body">
 
-                    <div>
-                        <span class="terminal-symbol">$</span>
-                        simplify init my-project
-                    </div>
 
-                    <div class="terminal-output">
-                        Initializing project...
-                    </div>
 
-                    <div class="terminal-output">
-                        Connecting to network...
-                    </div>
 
-                    <div class="terminal-output success">
-                        ✓ Project ready
-                    </div>
+<nav class="navigation">
 
-                    <div class="cursor-line">
-                        <span class="terminal-symbol">$</span>
-                        <span class="cursor"></span>
-                    </div>
 
-                </div>
+<a href="docs.html">
+Docs
+</a>
 
-            </div>
 
-        </section>
+<a href="platform.html">
+Platform
+</a>
 
 
-        <!-- Developer Tools -->
+<a href="developers.html">
+Developers
+</a>
 
-        <section class="developer-section" id="docs">
 
-            <div class="section-heading">
+<a href="resources.html">
+Resources
+</a>
 
-                <div class="eyebrow">
-                    DEVELOPER TOOLKIT
-                </div>
 
-                <h2>
-                    Everything in one place.
-                </h2>
 
-                <p>
-                    Tools and infrastructure designed to help developers
-                    move from idea to production faster.
-                </p>
+<a 
+href="start.html"
+class="button primary-button">
 
-            </div>
+Start Building
 
+</a>
 
-            <div class="tool-grid">
 
-                <a href="#" class="tool-card">
+</nav>
 
-                    <div class="card-icon">
-                        &lt;/&gt;
-                    </div>
 
-                    <h3>Documentation</h3>
+</div>
 
-                    <p>
-                        Technical guides, references, and examples
-                        for building with the platform.
-                    </p>
 
-                    <span class="card-link">
-                        Read the docs →
-                    </span>
+</header>
 
-                </a>
 
 
-                <a href="#" class="tool-card">
 
-                    <div class="card-icon">
-                        API
-                    </div>
 
-                    <h3>API Reference</h3>
 
-                    <p>
-                        Explore endpoints, authentication,
-                        requests, and responses.
-                    </p>
 
-                    <span class="card-link">
-                        Explore API →
-                    </span>
 
-                </a>
 
+<main>
 
-                <a href="#" class="tool-card">
 
-                    <div class="card-icon">
-                        SDK
-                    </div>
 
-                    <h3>SDKs</h3>
 
-                    <p>
-                        Build faster with libraries and tools
-                        for your preferred development environment.
-                    </p>
 
-                    <span class="card-link">
-                        View SDKs →
-                    </span>
+<!-- =====================================================
+HERO
+===================================================== -->
 
-                </a>
 
+<section class="hero">
 
-                <a href="#" class="tool-card">
 
-                    <div class="card-icon">
-                        ◈
-                    </div>
+<div class="container hero-grid">
 
-                    <h3>Network</h3>
 
-                    <p>
-                        Understand the infrastructure powering
-                        applications across the network.
-                    </p>
 
-                    <span class="card-link">
-                        Explore network →
-                    </span>
 
-                </a>
 
-            </div>
+<div class="hero-content">
 
-        </section>
 
 
-        <!-- CTA -->
+<div class="tag">
 
-        <section class="cta">
+Distributed Developer Infrastructure
 
-            <div>
+</div>
 
-                <div class="eyebrow">
-                    START BUILDING
-                </div>
 
-                <h2>
-                    Your next project starts here.
-                </h2>
 
-                <p>
-                    Access the developer tools and start building
-                    with Simplify.
-                </p>
 
-            </div>
 
-            <a href="#" class="button button-primary">
-                Get Started →
-            </a>
+<h2>
 
-        </section>
+The programmable fabric
+for the next generation
+of applications.
 
-    </main>
+</h2>
 
 
-    <!-- Footer -->
 
-    <footer>
 
-        <div class="logo">
-            <span class="logo-mark">S</span>
-            <span class="logo-text">SIMPLIFY</span>
-        </div>
 
-        <p>
-            Developer infrastructure for the next generation.
-        </p>
+<p>
 
-        <span class="footer-status">
-            ● SYSTEMS OPERATIONAL
-        </span>
+DevFabric provides developers with a unified infrastructure layer
+for building, deploying, and scaling modern applications.
 
-    </footer>
+Connect compute resources, data systems, networking,
+identity, and developer tooling through one programmable platform.
+
+</p>
+
+
+
+
+
+<div class="hero-actions">
+
+
+<a 
+href="developers.html"
+class="button primary-button">
+
+Build With DevFabric
+
+</a>
+
+
+
+<a 
+href="architecture.html"
+class="button secondary-button">
+
+Explore Architecture
+
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="technology-list">
+
+
+<div>
+Distributed Compute
+</div>
+
+
+<div>
+Realtime Infrastructure
+</div>
+
+
+<div>
+Edge Runtime
+</div>
+
+
+<div>
+Developer SDK
+</div>
+
+
+<div>
+AI Workloads
+</div>
+
+
+<div>
+Secure Networking
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+ARCHITECTURE PANEL
+===================================================== -->
+
+
+<div class="architecture-card">
+
+
+
+<h3>
+The DevFabric Stack
+</h3>
+
+
+
+<p>
+
+A complete infrastructure ecosystem connecting developers
+with the resources needed to build globally distributed software.
+
+</p>
+
+
+
+
+
+<div class="architecture-stack">
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Developer Layer
+</strong>
+
+
+<span>
+
+SDKs, APIs, CLI tools, templates, automation
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Application Runtime
+</strong>
+
+
+<span>
+
+Functions, containers, services, edge execution
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Compute Fabric
+</strong>
+
+
+<span>
+
+Distributed nodes, scalable workloads, AI execution
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Data Infrastructure
+</strong>
+
+
+<span>
+
+Databases, storage, realtime systems, indexing
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Network Fabric
+</strong>
+
+
+<span>
+
+Secure communication, identity, distributed connectivity
+
+</span>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+  <!-- =====================================================
+CORE PLATFORM
+===================================================== -->
+
+
+<section class="section">
+
+
+<div class="container">
+
+
+<div class="section-heading">
+
+
+<h2>
+
+One platform.
+Every infrastructure layer.
+
+</h2>
+
+
+
+<p>
+
+Modern applications require more than servers and databases.
+DevFabric unifies the complete software stack into a single
+developer-controlled infrastructure layer.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="feature-grid">
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Compute Fabric
+</h3>
+
+
+<p>
+
+Access distributed compute resources for applications,
+automation, AI workloads, simulations, and high-performance
+services.
+
+Deploy workloads across available execution environments
+without managing fragmented infrastructure.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Data Infrastructure
+</h3>
+
+
+<p>
+
+Build on scalable data services including databases,
+storage systems, realtime synchronization, indexing,
+and application state management.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Network Fabric
+</h3>
+
+
+<p>
+
+Connect applications, users, and devices through secure
+communication layers designed for distributed systems.
+
+Identity-based networking enables resilient application
+architectures beyond traditional cloud boundaries.
+
+</p>
+
+
+</article>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+COMPUTE FABRIC
+===================================================== -->
+
+
+<section class="section dark-section">
+
+
+<div class="container">
+
+
+
+<div class="section-heading">
+
+
+<h2>
+
+Global compute resources,
+available when developers need them.
+
+</h2>
+
+
+
+<p>
+
+DevFabric transforms compute into an accessible resource layer.
+Developers can deploy workloads, allocate resources, and scale
+applications across distributed environments.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="feature-grid">
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Edge Execution
+</h3>
+
+
+<p>
+
+Run applications closer to users with distributed execution
+environments designed for low-latency workloads.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+AI Infrastructure
+</h3>
+
+
+<p>
+
+Support machine learning workloads, autonomous services,
+agents, inference pipelines, and intelligent applications.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Resource Marketplace
+</h3>
+
+
+<p>
+
+Discover and utilize available compute resources through
+a unified developer resource ecosystem.
+
+</p>
+
+
+</article>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+DEVELOPER STACK
+===================================================== -->
+
+
+<section class="section">
+
+
+<div class="container">
+
+
+
+<div class="section-heading">
+
+
+<h2>
+
+Everything developers need to build.
+
+</h2>
+
+
+
+<p>
+
+From first project creation to production deployment,
+DevFabric provides the tools required throughout the
+entire development lifecycle.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="feature-grid">
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Developer SDK
+</h3>
+
+
+<p>
+
+Simple libraries and APIs for connecting applications
+to compute, data, identity, and network services.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Command Line Tools
+</h3>
+
+
+<p>
+
+Create projects, deploy services, manage resources,
+and automate infrastructure workflows from the terminal.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Infrastructure APIs
+</h3>
+
+
+<p>
+
+Programmatically control resources and integrate
+DevFabric capabilities into existing development systems.
+
+</p>
+
+
+</article>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+SECURITY AND IDENTITY
+===================================================== -->
+
+
+<section class="section dark-section">
+
+
+<div class="container">
+
+
+
+
+
+<div class="section-heading">
+
+
+<h2>
+
+Secure infrastructure by design.
+
+</h2>
+
+
+
+<p>
+
+Distributed systems require strong identity,
+authentication, authorization, and communication layers.
+
+DevFabric provides the foundation for secure modern applications.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="feature-grid">
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Identity Layer
+</h3>
+
+
+<p>
+
+Manage users, devices, services, and application identities
+through secure authentication systems.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Encrypted Communication
+</h3>
+
+
+<p>
+
+Protect application traffic and resource communication
+with modern security architecture.
+
+</p>
+
+
+</article>
+
+
+
+
+
+
+
+<article class="feature-card">
+
+
+<h3>
+Developer Control
+</h3>
+
+
+<p>
+
+Maintain ownership of infrastructure, resources,
+applications, and deployment workflows.
+
+</p>
+
+
+</article>
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+DEVELOPER WORKFLOW
+===================================================== -->
+
+
+<section class="section">
+
+
+<div class="container">
+
+
+
+
+
+<div class="section-heading">
+
+
+<h2>
+
+From idea to global deployment.
+
+</h2>
+
+
+
+<p>
+
+A complete workflow for designing, building,
+deploying, and scaling distributed applications.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="workflow">
+
+
+
+
+
+<div class="workflow-step">
+
+
+<span>
+01
+</span>
+
+
+<h3>
+Create
+</h3>
+
+
+<p>
+
+Initialize applications using DevFabric tools,
+SDKs, and templates.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="workflow-step">
+
+
+<span>
+02
+</span>
+
+
+<h3>
+Connect
+</h3>
+
+
+<p>
+
+Attach databases, compute resources,
+network services, and application infrastructure.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="workflow-step">
+
+
+<span>
+03
+</span>
+
+
+<h3>
+Deploy
+</h3>
+
+
+<p>
+
+Launch applications across distributed environments
+and scale resources automatically.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</section>
+
+  <!-- =====================================================
+ARCHITECTURE OVERVIEW
+===================================================== -->
+
+
+<section class="section dark-section">
+
+
+<div class="container">
+
+
+<div class="section-heading">
+
+
+<h2>
+
+A complete infrastructure fabric.
+
+</h2>
+
+
+<p>
+
+DevFabric connects every layer required to build
+distributed applications into one programmable system.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="architecture-card">
+
+
+<div class="architecture-stack">
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Application Layer
+</strong>
+
+
+<span>
+
+Web applications, mobile applications,
+services, agents, and enterprise systems.
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Runtime Layer
+</strong>
+
+
+<span>
+
+Serverless functions, containers,
+edge execution, and automated workloads.
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Compute Fabric
+</strong>
+
+
+<span>
+
+Distributed nodes, accelerated compute,
+AI processing, and scalable resources.
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Data Fabric
+</strong>
+
+
+<span>
+
+Databases, storage, synchronization,
+indexing, and realtime systems.
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+<div class="stack-item">
+
+
+<strong>
+Network Fabric
+</strong>
+
+
+<span>
+
+Secure communication, identity,
+routing, and distributed connectivity.
+
+</span>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+DEVELOPER EXPERIENCE
+===================================================== -->
+
+
+<section class="section">
+
+
+<div class="container code-section">
+
+
+
+
+
+<div>
+
+
+<h2>
+
+Built for developers.
+
+</h2>
+
+
+
+<p>
+
+DevFabric provides familiar tools while exposing
+powerful infrastructure capabilities through simple
+developer interfaces.
+
+</p>
+
+
+
+<br>
+
+
+
+<p>
+
+Create environments, connect resources,
+deploy applications, and automate workflows
+from one unified toolkit.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<pre class="code-block">
+
+<code>
+
+
+# Create a new project
+
+devfabric create my-app
+
+
+
+# Connect services
+
+devfabric connect database
+
+
+
+# Deploy application
+
+devfabric deploy production
+
+
+
+# Scale resources
+
+devfabric resources scale
+
+
+</code>
+
+</pre>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+PLATFORM SERVICES
+===================================================== -->
+
+
+<section class="section">
+
+
+<div class="container">
+
+
+
+
+
+<div class="section-heading">
+
+
+<h2>
+
+Explore the DevFabric ecosystem.
+
+</h2>
+
+
+
+<p>
+
+Each component works independently or together
+as a complete developer infrastructure platform.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="ecosystem-grid">
+
+
+
+
+
+<a href="platform.html" class="ecosystem-card">
+
+
+<h3>
+Platform
+</h3>
+
+
+<p>
+
+Explore compute, storage,
+networking, and infrastructure services.
+
+</p>
+
+
+</a>
+
+
+
+
+
+
+
+<a href="developers.html" class="ecosystem-card">
+
+
+<h3>
+Developers
+</h3>
+
+
+<p>
+
+Access SDKs, APIs, tutorials,
+examples, and development tools.
+
+</p>
+
+
+</a>
+
+
+
+
+
+
+
+
+<a href="architecture.html" class="ecosystem-card">
+
+
+<h3>
+Architecture
+</h3>
+
+
+<p>
+
+Understand how data,
+compute, and networking layers connect.
+
+</p>
+
+
+</a>
+
+
+
+
+
+
+
+<a href="network.html" class="ecosystem-card">
+
+
+<h3>
+Network Fabric
+</h3>
+
+
+<p>
+
+Learn about distributed communication,
+identity, and connectivity.
+
+</p>
+
+
+</a>
+
+
+
+
+
+
+
+<a href="resources.html" class="ecosystem-card">
+
+
+<h3>
+Resources
+</h3>
+
+
+<p>
+
+Discover available compute,
+developer resources, and infrastructure.
+
+</p>
+
+
+</a>
+
+
+
+
+
+
+
+<a href="docs.html" class="ecosystem-card">
+
+
+<h3>
+Documentation
+</h3>
+
+
+<p>
+
+Read guides, references,
+and integration documentation.
+
+</p>
+
+
+</a>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+FINAL CTA
+===================================================== -->
+
+
+<section class="section dark-section">
+
+
+<div class="container">
+
+
+
+
+
+<div class="architecture-card">
+
+
+
+
+
+<h2>
+
+Build the future of distributed applications.
+
+</h2>
+
+
+
+
+<p>
+
+DevFabric gives developers the tools to create
+software that operates across cloud, edge,
+and distributed environments.
+
+Start building with programmable infrastructure
+designed for the next generation of applications.
+
+</p>
+
+
+
+
+
+
+<div class="hero-actions">
+
+
+<a 
+href="developers.html"
+class="button primary-button">
+
+Start Building
+
+</a>
+
+
+
+
+<a
+href="docs.html"
+class="button secondary-button">
+
+Read Documentation
+
+</a>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+FOOTER
+===================================================== -->
+
+
+<footer class="footer">
+
+
+
+<div class="container">
+
+
+
+
+
+<div>
+
+
+<strong>
+DevFabric
+</strong>
+
+
+
+<p>
+
+Distributed Developer Infrastructure Platform
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="footer-links">
+
+
+<a href="docs.html">
+Documentation
+</a>
+
+
+<a href="developers.html">
+Developers
+</a>
+
+
+<a href="architecture.html">
+Architecture
+</a>
+
+
+<a href="network.html">
+Network
+</a>
+
+
+<a href="community.html">
+Community
+</a>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
 
 </body>
+
 </html>
+
